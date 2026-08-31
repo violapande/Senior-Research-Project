@@ -271,7 +271,7 @@ Barometric pressure: 30.12 inHg (rising)"""
 
 URI = "neo4j://127.0.0.1:7687"
 AUTH = ("neo4j",
-         "suck*a*QT*100!")
+         "insert_your_own_pw_here")
 
 driver = GraphDatabase.driver(URI, auth=AUTH)
 
