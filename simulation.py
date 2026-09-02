@@ -7,7 +7,7 @@ from openai import OpenAI
 import json  
 from neo4j import GraphDatabase
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="placeholder")
 
 class Agent:
     def __init__(self, name, memory=None):
